@@ -275,4 +275,8 @@ __pycache__/
 # !tools/packages.config
 
 # Ignore OpenCV Library
-Library/
+Library/*
+!Library/README.md
+
+# Unignore Root Release Folder
+!Release/
